@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: account-service
+  main:
+    web-application-type: servlet
 
   datasource:
     url: jdbc:mysql://localhost:3306/bankledger_db
